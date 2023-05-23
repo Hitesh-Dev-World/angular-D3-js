@@ -13,6 +13,6 @@ export class UtilitiService {
    * @returns 
    */
   public getColor(value: number): string {
-      return (value > 30) ? '261ae8' : '#ea2161';
+      return (value > 30) ? '#69b3a2' : '#ea2161';
   }
  }
