@@ -1,0 +1,10 @@
+<div class="tooltip" *ngIf="tooltipData?.label" [style.left.px]="tooltipLeft" [style.top.px]="tooltipTop">
+  <button mat-raised-button> {{ tooltipData?.label }}: {{ tooltipData?.value }} </button>
+</div>
+
+<div class="button-action">
+  <button mat-raised-button color="accent" (click)="onAccendingOrder()"> Accending Order </button>
+  <button mat-raised-button color="primary" (click)="onDecendingOrder()"> Decending Order </button>
+</div>
+
+<div id="chart"></div>
